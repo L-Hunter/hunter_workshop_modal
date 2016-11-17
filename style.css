@@ -1,0 +1,149 @@
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #C0EE7E;
+}
+
+h1 {
+	text-align: center;
+	background-color: #63D1F4;
+	margin: 0;
+	color: #FFFFFF;
+	font-size: 40px;
+	padding: 10px;
+	font-variant: small-caps;
+}
+
+nav {
+	background-color: #E052A5;
+	padding: 1px;
+}
+
+.navigation {
+	margin: 0 auto;
+}
+
+.nav-bar li {
+	list-style: none;
+	display: inline-block;
+	color: #FFFFFF;
+	font-size: 16px;
+	padding-left: 20px;
+}
+
+#wrapper{
+	width: 80%;
+	margin: 0 auto;
+}
+
+.left {
+	float: left;
+}
+
+article {
+	clear: both;
+}
+
+h2 {
+	text-align: center;
+	color: #E052A5;
+}
+
+.flavors {
+	list-style-position: inside;
+	width: 30%;
+	font-size: 20px;
+}
+
+.ice-cream {
+	border-radius: 50%;
+	margin: 20px 5px;
+	width: 64%;
+}
+
+.buy-it {
+	width: 30%;
+	font-size: 20px;
+}
+
+footer {
+	background-color: #E052A5;
+	color: #FFFFFF;
+	padding: 3px;
+	text-align: center;
+	font-size: 16px;
+	clear: both;
+}
+
+#cat {
+	width: 250px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 10% auto; /* 10% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 60%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+@media all and (max-width: 1005px){
+	.flavors {
+		list-style: none;
+	}
+}
+
+@media all and (max-width: 700px){
+	.nav-bar li {
+		display: block;
+	}
+
+	.flavors {
+		width: 80%;
+	}
+
+	.ice-cream {
+		margin: 10px;
+		width: 80%
+	}
+
+	.buy-it {
+		width: 80%;
+	}
+
+}
