@@ -24,6 +24,7 @@ nav {
 	margin: 0 auto;
 }
 
+
 .nav-bar li {
 	list-style: none;
 	display: inline-block;
@@ -122,9 +123,13 @@ footer {
 }
 
 
-@media all and (max-width: 1005px){
+@media all and (max-width: 1050px){
 	.flavors {
 		list-style: none;
+	}
+
+	.ice-cream {
+		width: 50%;
 	}
 }
 
